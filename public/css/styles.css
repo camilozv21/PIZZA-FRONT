@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+/* Inicio del header */
+header {
+    background-color: #222222;
+}
+
+.main-navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #E5E5E5;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-navbar ul{
+    display: flex;
+}
+
+.main-navbar li{
+    margin: 5px;
+}
+
+.main-navbar{
+    padding-right: 20px;
+}
+
+.logo {
+    margin: 10px;
+}
+/* Fin header */
+
+/* Inicio main */
+.contenedor-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.article-delivery {
+    width: 50vw;
+    margin: 19px;
+    text-align: center;
+}
+
+.article-pizza {
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    margin-top: 55px;
+    margin-right: 40px;
+    margin-bottom: 58px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.lista-pizzas {
+    margin: 10px;
+    list-style: none;
+    text-align: start;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+
+.lista-pizzas li {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+.article-delivery h2 {
+    color: #FC200C;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.article-delivery span {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.texto-delivery {
+    position: absolute;
+    top: 177px;
+    left: 40px;
+}
+
+.img-delivery {
+    margin: 35px 5px 35px 0px;
+    width: 100%;
+}
+
+.article-pizza p {
+    margin-top: 30px;
+    color: #FC200C;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.article-pizza h3 {
+    color: #222222;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.img-pizza {
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+/* Final main */
+
+/* Inicio Footer */
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+.main-navbar-footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-navbar-footer a {
+    text-decoration: none;
+    color: #E5E5E5;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.main-navbar-footer li{
+    margin: 5px;
+    padding-left: 15px;
+}
+/* Final Footer */
